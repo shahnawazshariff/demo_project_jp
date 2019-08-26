@@ -1,0 +1,10 @@
+com\jpmorgan\controller\IncomingController.class
+com\jpmorgan\entity\Instruction.class
+com\jpmorgan\repository\CurrencyDayOfWeekHolidayExceptionRepository.class
+com\jpmorgan\service\InstructionServiceImpl.class
+com\jpmorgan\DemoApplication.class
+com\jpmorgan\utilities\SettledInstruction.class
+com\jpmorgan\controller\OutgoingController.class
+com\jpmorgan\entity\CurrencyDayOfWeekException.class
+com\jpmorgan\repository\InstructionRepository.class
+com\jpmorgan\service\InstructionService.class

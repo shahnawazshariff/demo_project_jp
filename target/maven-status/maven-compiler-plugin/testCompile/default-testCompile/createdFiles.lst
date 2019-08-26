@@ -1,0 +1,4 @@
+com\jpmorgan\TestStubs.class
+com\jpmorgan\IncomingControllerIntegrationTest.class
+com\jpmorgan\InstructionServiceTest.class
+com\jpmorgan\OutgoingControllerIntegrationTest.class
