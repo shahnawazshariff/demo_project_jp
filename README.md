@@ -2,7 +2,7 @@
 Spring Boot Application for JP Morgan Test in Java 1.8
 
 # Run Instructions 
-Do a maven build and run the jar file from command line from the target folder of the application. 
+Do a maven build and run the jar file from command line (or download the jar directly from github) from the target folder of the application. 
 
 Alternatively open the project in your IDE (as a maven project) and run the class **DemoApplication.java**
 
