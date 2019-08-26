@@ -44,10 +44,10 @@ http://localhost:8080/outgoing
 2. List of all entities ranked in reverse order of settled amounts for a specific instruction date (date format yyyy-MM-dd)
 http://localhost:8080/outgoing/2019-08-18 (Please feel free to amend the date when testing)
 
-3. List of incoming total settled amount in USD for current date
+3. List of outgoing total settled amount in USD for current date
 http://localhost:8080/outgoing/amount
 
-4. List of incoming total settled amount in USD for specific date (date format yyyy-MM-dd)
+4. List of outgoing total settled amount in USD for specific date (date format yyyy-MM-dd)
 http://localhost:8080/outgoing/amount/2019-08-18
 
 
