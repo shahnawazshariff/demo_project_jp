@@ -6,6 +6,14 @@ Do a maven build and run the jar file from command line from the target folder o
 
 Alternatively open the project in your IDE (as a maven project) and run the class **DemoApplication.java**
 
+# Adding more test data manually
+There are some default test loading stubs stored in the in-memory H2 database. After the application has started go to http://localhost:8080/h2 where you can enter the following credentials:
+**JDBC url:** jdbc:h2:mem:instructionsDB
+**Username:** sa
+Password can be left blank
+
+The **INSTRUCTION** table will allow you to enter data manually via the console. Please enter valid data only in the table.
+
 # Application Output in Console
 The application produces the following outputs by default to the console when the web service first starts up.
 
