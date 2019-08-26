@@ -33,7 +33,7 @@ http://localhost:8080/incoming/2019-08-19 (Please feel free to amend the date wh
 3. List of incoming total settled amount in USD for current date
 http://localhost:8080/incoming/amount
 
-4. List of incoming total settled amount in USD for specific date (date format yyyy-MM-dd
+4. List of incoming total settled amount in USD for specific date (date format yyyy-MM-dd)
 http://localhost:8080/incoming/amount/2019-08-19
 
 # Application Output in Browser for Outgoings
@@ -47,7 +47,7 @@ http://localhost:8080/outgoing/2019-08-18 (Please feel free to amend the date wh
 3. List of incoming total settled amount in USD for current date
 http://localhost:8080/outgoing/amount
 
-4. List of incoming total settled amount in USD for specific date (date format yyyy-MM-dd
+4. List of incoming total settled amount in USD for specific date (date format yyyy-MM-dd)
 http://localhost:8080/outgoing/amount/2019-08-18
 
 
