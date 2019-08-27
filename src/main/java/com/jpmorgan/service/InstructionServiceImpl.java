@@ -74,7 +74,7 @@ public class InstructionServiceImpl implements InstructionService{
     }
 
     // Calculate the actual settlement date for the given currency if input settlement date falls on a weekend
-    public LocalDate computeActualSettlementDate(String currency, LocalDate settlementDate, List<CurrencyDayOfWeekException> currencyExceptionList) {
+    private LocalDate computeActualSettlementDate(String currency, LocalDate settlementDate, List<CurrencyDayOfWeekException> currencyExceptionList) {
         LocalDate returnDate = settlementDate; // Set it as per client instruction initially
         Integer returnDateDayOfWeek = returnDate.getDayOfWeek().getValue();
         List<Integer> listWeekendDays = new ArrayList<>();

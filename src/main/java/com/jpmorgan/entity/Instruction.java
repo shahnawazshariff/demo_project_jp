@@ -29,7 +29,7 @@ public class Instruction {
     private LocalDate settlementDate;
 
     @Column(nullable = false)
-    private Integer Units;
+    private Integer units;
 
     @Column(nullable = false)
     private Double pricePerUnit;
@@ -45,7 +45,7 @@ public class Instruction {
         this.currency = currency;
         this.instructionDate = instructionDate;
         this.settlementDate = settlementDate;
-        Units = units;
+        this.units = units;
         this.pricePerUnit = pricePerUnit;
     }
 
@@ -106,11 +106,11 @@ public class Instruction {
     }
 
     public Integer getUnits() {
-        return Units;
+        return units;
     }
 
     public void setUnits(Integer units) {
-        Units = units;
+        this.units = units;
     }
 
     public Double getPricePerUnit() {
@@ -131,7 +131,7 @@ public class Instruction {
                 ", currency='" + currency + '\'' +
                 ", instructionDate=" + instructionDate +
                 ", settlementDate=" + settlementDate +
-                ", Units=" + Units +
+                ", Units=" + units +
                 ", priceperUnit=" + pricePerUnit +
                 '}';
     }
